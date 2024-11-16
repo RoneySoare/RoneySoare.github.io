@@ -1,0 +1,59 @@
+/* Estilo geral */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho e rodapé */
+header, footer {
+    text-align: center;
+    padding: 1em;
+}
+        
+footer {
+    background-color: #333;
+    color: #fff;
+    margin-top: 2em;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 1em;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Títulos das seções */
+section h3 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
